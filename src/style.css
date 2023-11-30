@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+
+    font-family: 'Inter', sans-serif;
+
+    background-color: Black;
+    color: White;
+}
+
+.pattern {
+    background: url("./assets/bg.svg");
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
